@@ -1,21 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+<title>Welcome to my website</title>
+<script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+<script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+<script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
 
-    <title>myPage</title>
-    <script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
-    <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
-    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+<body>
+  <div id="root"></div>
 
-    <body>
-        <div id="root"></div>
-        <script type="text/babel">
-            class Welcome extends React.Component { 
-                render() {return(<h1>Thanks for coming {this.props.name}!</h1>);}
-            }
+      <script type="text/babel">
+      class App extends React.Component {
+        constructor(props) {
+          super(props);
+          this.state = { data: "Initial data..." };
+          this.update = this.updateState.bind(this);
 
-            ReactDOM.render(<Welcome name = "here"/>, document.getElementById('root'));
-        </script>
+           this.divStyle = {
+            margin: "40px",
+            border: "5px solid pink"
+          };
+          const pStyle = {
+            fontSize: "15px",
+            textAlign: "center"
+          };
 
-    </body>
+        }
+        updateState() {
+          this.setState({ data: "Data updated..." });
+        }
+        render() {
+          return (
+            <div>
+              <button style={this.divStyle} onClick={this.update}>
+                CLICK
+              </button>
+              <h4>{this.state.data}</h4>
+            </div>
+          );
+        }
+      }
+      ReactDOM.render(<App />, document.getElementById("root"));
+    </script>
+</body>
 
 </html>
