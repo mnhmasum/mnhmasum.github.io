@@ -1,15 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
-<head>
-    <title>Page Title</title>
-</head>
+    <title>myPage</title>
+    <script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
 
-<body>
+    <body>
+        <div id="root"></div>
+        <script type="text/babel">
+            class Welcome extends React.Component { 
+                render() {return(<h1>Thanks for coming {this.props.name}!</h1>);}
+            }
 
-    <h1>This is a Heading</h1>
-    <p>This is a paragraph.</p>
+            ReactDOM.render(<Welcome name = "here"/>, document.getElementById('root'));
+        </script>
 
-</body>
+    </body>
 
 </html>
