@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/mnhmasum.github.io/precache-manifest.b538fe0fbb7dcfffd807548e015b74c0.js"
+  "/reactice/precache-manifest.a8c068f14fc03cce506aa75f1c282db0.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/mnhmasum.github.io/index.html", {
+workbox.routing.registerNavigationRoute("/reactice/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
