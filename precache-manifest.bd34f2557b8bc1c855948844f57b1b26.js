@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/reactice/static/js/runtime~main.4f05a514.js"
   },
   {
-    "revision": "e80c52c3b4c7c9e3763e",
-    "url": "/reactice/static/js/main.e80c52c3.chunk.js"
+    "revision": "6d5d35b95f8cf75194e4",
+    "url": "/reactice/static/js/main.6d5d35b9.chunk.js"
   },
   {
     "revision": "b11272c99afd270a83ec",
     "url": "/reactice/static/js/1.b11272c9.chunk.js"
   },
   {
-    "revision": "e80c52c3b4c7c9e3763e",
+    "revision": "6d5d35b95f8cf75194e4",
     "url": "/reactice/static/css/main.63667fd2.chunk.css"
   },
   {
-    "revision": "1256673821f6aea646909fced9e31ec6",
+    "revision": "9befdbb117467c096c400bf0d6b90d77",
     "url": "/reactice/index.html"
   }
 ];
