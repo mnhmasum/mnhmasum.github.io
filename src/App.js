@@ -4,6 +4,7 @@ import paceman from './paceman.svg';
 import './App.css';
 import Home from './Home.js';
 import About from './About.js';
+import UsaRadioAll from './UsaRadioAll.js';
 
 class App extends Component {
   render() {
@@ -11,14 +12,14 @@ class App extends Component {
       <Router>
         <div className="App">
         <div className="Topnav">
-            <div><Link style={Style.link} to="/">Home</Link></div>
+            {/* <div><Link style={Style.link} to="/">Home</Link></div>
             <div><Link style={Style.link} to="/users/">Writes</Link> </div>
-            <div><Link style={Style.link} to="/about/">About</Link> </div>
+            <div><Link style={Style.link} to="/about/">About</Link> </div> */}
           </div>
           <header className="App-header">
             <Route path="/" exact component={Home} />
             <Route path="/about/" component={About} />
-            <Route path="/users/" component={Home} />
+            <Route path="/privacy-policy-usa-radio-all/" component={UsaRadioAll} />
           </header>
         </div>
       </Router>
