@@ -1,8 +1,11 @@
 Body{
-  background-color: #282c34
+  background-color: #282c34;
+}
+a {
+  color: antiquewhite;
 }
 .App {
- 
+  font-size: 14px;
 }
 
 .App-logo {
@@ -41,7 +44,6 @@ Body{
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
 }
