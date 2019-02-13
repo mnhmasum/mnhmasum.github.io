@@ -1,13 +1,15 @@
 {
-  "main.css": "/reactice/static/css/main.63667fd2.chunk.css",
-  "main.js": "/reactice/static/js/main.fa44ec3c.chunk.js",
-  "main.js.map": "/reactice/static/js/main.fa44ec3c.chunk.js.map",
-  "static/js/1.b11272c9.chunk.js": "/reactice/static/js/1.b11272c9.chunk.js",
-  "static/js/1.b11272c9.chunk.js.map": "/reactice/static/js/1.b11272c9.chunk.js.map",
+  "main.css": "/reactice/static/css/main.b349ed2b.chunk.css",
+  "main.js": "/reactice/static/js/main.4ac0487d.chunk.js",
+  "main.js.map": "/reactice/static/js/main.4ac0487d.chunk.js.map",
+  "static/js/1.647d1f43.chunk.js": "/reactice/static/js/1.647d1f43.chunk.js",
+  "static/js/1.647d1f43.chunk.js.map": "/reactice/static/js/1.647d1f43.chunk.js.map",
   "runtime~main.js": "/reactice/static/js/runtime~main.4f05a514.js",
   "runtime~main.js.map": "/reactice/static/js/runtime~main.4f05a514.js.map",
-  "static/css/main.63667fd2.chunk.css.map": "/reactice/static/css/main.63667fd2.chunk.css.map",
+  "static/css/main.b349ed2b.chunk.css.map": "/reactice/static/css/main.b349ed2b.chunk.css.map",
+  "static/media/paceman.svg": "/reactice/static/media/paceman.3165fdec.svg",
+  "static/media/logo.svg": "/reactice/static/media/logo.5d5d9eef.svg",
   "index.html": "/reactice/index.html",
-  "precache-manifest.99aed8590118f5b2205923c6c35ca96d.js": "/reactice/precache-manifest.99aed8590118f5b2205923c6c35ca96d.js",
+  "precache-manifest.388bb6b91fc60e966e57b3a8c1f94b9b.js": "/reactice/precache-manifest.388bb6b91fc60e966e57b3a8c1f94b9b.js",
   "service-worker.js": "/reactice/service-worker.js"
 }
