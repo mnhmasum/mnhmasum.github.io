@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 import { HashRouter as Router, Route, Link } from "react-router-dom";
-import paceman from './paceman.svg';
-import './App.css';
-import Home from './Home.js';
-import About from './About.js';
-import UsaRadioAll from './UsaRadioAll.js';
+import './Styles/App.css';
+import Home from './components/Home.js';
+import About from './components/About.js';
+import UsaRadioAll from './components/UsaRadioAll.js';
 
 class App extends Component {
   render() {
@@ -16,10 +15,10 @@ class App extends Component {
             <div><Link style={Style.link} to="/users/">Writes</Link> </div>
             <div><Link style={Style.link} to="/about/">About</Link> </div> */}
           </div>
-          <header className="App-header">
+          <header className="App">
             <Route path="/" exact component={Home} />
-            <Route path="/about/" component={About} />
             <Route path="/privacy-policy-usa-radio-all/" component={UsaRadioAll} />
+            <Route path="/about/" component={About} />
           </header>
         </div>
       </Router>

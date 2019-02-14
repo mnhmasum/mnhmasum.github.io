@@ -1,10 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Home from './Home.js';
-import { BrowserRouter as Router, Route, Link, IndexRoute, browserHistory } from "react-router-dom";
-
-
-import './index.css';
+import './Styles/index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import paceman from './paceman.svg';
-import './App.css';
+import paceman from '../paceman.svg';
 
 class About extends React.Component {
     render() {

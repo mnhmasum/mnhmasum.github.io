@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
-import paceman from './paceman.svg';
-import './App.css';
+import '../Styles/App.css';
 
 class UsaRadioAll extends React.Component {
    render() {
       return (
-         <div>
+         <div className="App">
             <div><h2>Privacy Policy</h2>
                <p> Nazmul Masum built the USA RADIO ALL app as a Free app. This SERVICE is provided by Nazmul at no cost and is intended for use as is.
                 </p>
@@ -69,9 +68,11 @@ class UsaRadioAll extends React.Component {
 
                <p>Contact Us</p>
                <p>If you have any questions about this Privacy Policy, please contact us:</p>
-
+               <ul>
                <li>By email: mnhmasum@gmail.com</li>
                <li>By phone number: +8801794218480</li>
+               </ul>
+               
                <p><strong>Contact Us</strong></p>
                <p>
                   If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact
