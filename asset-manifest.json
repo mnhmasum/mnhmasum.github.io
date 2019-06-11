@@ -1,14 +1,16 @@
 {
-  "main.css": "/reactice/static/css/main.ed5fe8d7.chunk.css",
-  "main.js": "/reactice/static/js/main.edbbbedb.chunk.js",
-  "main.js.map": "/reactice/static/js/main.edbbbedb.chunk.js.map",
-  "static/js/1.8f1aeedc.chunk.js": "/reactice/static/js/1.8f1aeedc.chunk.js",
-  "static/js/1.8f1aeedc.chunk.js.map": "/reactice/static/js/1.8f1aeedc.chunk.js.map",
-  "runtime~main.js": "/reactice/static/js/runtime~main.4f05a514.js",
-  "runtime~main.js.map": "/reactice/static/js/runtime~main.4f05a514.js.map",
-  "static/media/paceman.svg": "/reactice/static/media/paceman.3165fdec.svg",
-  "static/css/main.ed5fe8d7.chunk.css.map": "/reactice/static/css/main.ed5fe8d7.chunk.css.map",
-  "index.html": "/reactice/index.html",
-  "precache-manifest.3daa0e0e82a5d941986e38e317dce879.js": "/reactice/precache-manifest.3daa0e0e82a5d941986e38e317dce879.js",
-  "service-worker.js": "/reactice/service-worker.js"
+  "files": {
+    "main.css": "/reactice/static/css/main.2487d8dc.chunk.css",
+    "main.js": "/reactice/static/js/main.8e13ab92.chunk.js",
+    "main.js.map": "/reactice/static/js/main.8e13ab92.chunk.js.map",
+    "runtime~main.js": "/reactice/static/js/runtime~main.dd9be858.js",
+    "runtime~main.js.map": "/reactice/static/js/runtime~main.dd9be858.js.map",
+    "static/js/2.94d7ec6c.chunk.js": "/reactice/static/js/2.94d7ec6c.chunk.js",
+    "static/js/2.94d7ec6c.chunk.js.map": "/reactice/static/js/2.94d7ec6c.chunk.js.map",
+    "index.html": "/reactice/index.html",
+    "precache-manifest.4dcd2d6bba0f95feead72297593c6f0c.js": "/reactice/precache-manifest.4dcd2d6bba0f95feead72297593c6f0c.js",
+    "service-worker.js": "/reactice/service-worker.js",
+    "static/css/main.2487d8dc.chunk.css.map": "/reactice/static/css/main.2487d8dc.chunk.css.map",
+    "static/media/paceman.svg": "/reactice/static/media/paceman.3165fdec.svg"
+  }
 }
