@@ -4,6 +4,7 @@ import './Styles/App.css';
 import Home from './components/Home.js';
 import About from './components/About.js';
 import UsaRadioAll from './components/UsaRadioAll.js';
+import AmarEnglishBuddy from './components/AmarEnglishBuddy.js';
 
 class App extends Component {
   render() {
@@ -18,6 +19,7 @@ class App extends Component {
           <header className="App">
             <Route path="/" exact component={Home} />
             <Route path="/privacy-policy-usa-radio-all/" component={UsaRadioAll} />
+            <Route path="/amar-english-buddy/" component={AmarEnglishBuddy} />
             <Route path="/about/" component={About} />
           </header>
         </div>
