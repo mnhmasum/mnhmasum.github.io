@@ -1,0 +1,141 @@
+{
+  "settings": {
+    "showExperienceDuration": false
+  },
+  "profile": {
+    "name": "Nazmul Hasan Masum",
+    "firstName": "Nazmul Hasan",
+    "lastName": "Masum",
+    "title": "Senior Software Engineer",
+    "email": "mnhmasum@gmail.com",
+    "phone": "+8801911291186",
+    "phoneUrl": "https://wa.me/+8801911291186",
+    "location": "Dhaka, Bangladesh",
+    "summary": "I specialize in developing a wide range of applications, including smartphone apps, IoT solutions, web applications, and desktop software. My passion lies in working with diverse technologies and languages such as Java, Kotlin, ReactJs, Dart, Python, and PHP. I possess a strong understanding of application development, architectural patterns, design patterns, and design principles."
+  },
+  "socialLinks": [
+    { "name": "LinkedIn", "url": "https://www.linkedin.com/in/nazmul-hasan-masum", "icon": "fab fa-linkedin" },
+    { "name": "GitHub", "url": "https://github.com/mnhmasum", "icon": "fab fa-github" },
+    { "name": "Stack Overflow", "url": "https://stackoverflow.com/users/4384513/masum", "icon": "fab fa-stack-overflow" },
+    { "name": "Medium", "url": "https://medium.com/@mnhmasum", "icon": "fab fa-medium" },
+    { "name": "LeetCode", "url": "https://leetcode.com/u/mnhmasum/", "image": "https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" }
+  ],
+  "skills": [
+    { "category": "Languages", "items": ["Java", "Kotlin", "Python", "PHP", "JavaScript"] },
+    { "category": "Architecture", "items": ["MVP", "MVVM", "Multi-Modular", "MVC(web)"] },
+    { "category": "Frameworks & Libraries", "items": ["Dagger2", "Hilt", "RxJava", "ReactJs", "React Native", "Flutter", "Tensorflow"] },
+    { "category": "Web Development", "items": ["CodeIgniter (PHP Framework)", "Bootstrap (CSS Framework)", "JS Frameworks (jQuery, ReactJs)"] },
+    { "category": "Databases", "items": ["MySQL", "SQLite", "Oracle"] },
+    { "category": "Version Control", "items": ["Git", "SVN"] },
+    { "category": "Others", "items": ["WebSocket", "SignalR", "Google Firebase", "Google GeoFence", "Kotlin DSL"] },
+    { "category": "Protocol", "items": ["GATT (for Bluetooth Low Energy)", "TCP/IP", "ZWave"] }
+  ],
+  "experience": [
+    {
+      "company": "Maple IT Solutions",
+      "title": "Senior Android Developer",
+      "startDate": "2026-02",
+      "endDate": null,
+      "highlights": [
+        "Android Kiosk Development: Develop and maintain Android-based kiosk applications for commercial and enterprise devices.",
+        "AOSP Integration: Work with Android Open Source Project (AOSP), including Android system services and platform-level integrations.",
+        "OTA Updates: Implement and maintain over-the-air (OTA) update workflows for Android kiosk devices, including package handling and update installation.",
+        "Device Management: Develop device-level features to support kiosk configuration, system operations, and device lifecycle management.",
+        "System-Level Development: Investigate Android framework, Binder IPC, permissions, and SELinux policies to support privileged device functionality.",
+        "Display Management: Work with display configuration and resolution management on Android-based devices."
+      ]
+    },
+    {
+      "company": "Adaptive Enterprise Limited",
+      "title": "Senior Software Engineer",
+      "startDate": "2018-05",
+      "endDate": "2026-01",
+      "highlights": [
+        "IoT Integration: Developed smart home automation system using smart node device based on Z-Wave and Bluetooth low energy protocol",
+        "Geofencing: Implemented location-based services to enhance application functionalities",
+        "Network Communication: Ensured reliable and secure communication using TCP/IP protocols",
+        "Android Development: Led projects using MVP and MVVM for clean architecture",
+        "Reactive Programming: Utilized RxJava for managing asynchronous data and events",
+        "Java to Kotlin Migration: Converted complex app from Java to Kotlin, improving performance",
+        "Project Leadership: Led projects from concept to deployment, coordinating cross-functional teams",
+        "Code Reviews and Mentorship: Conducted code reviews and mentored junior developers",
+        "SDK Development: Architected and maintained a robust SDK for Napco smart locks, providing secure APIs, BLE communication, and integration tools for external developers"
+      ]
+    },
+    {
+      "company": "Augmedix",
+      "title": "Senior Software Engineer",
+      "startDate": "2017-04",
+      "endDate": "2018-03",
+      "highlights": [
+        "Developed applications for Google Glass and Android smartphones",
+        "Contributed key features to the main application",
+        "Implemented POC in a Google Glass alternative device",
+        "Conducted research on emerging smart glasses technologies",
+        "Developed GUI based application to reduce ADB command line dependencies",
+        "Engaged in extensive memory optimization efforts in the main application"
+      ]
+    },
+    {
+      "company": "ChefOnline",
+      "title": "Android Developer",
+      "startDate": "2015-03",
+      "endDate": "2016-12",
+      "highlights": [
+        "Developed FOOD online order app with Android MVP pattern, SignalR, Firebase push notification, and payment gateway",
+        "Implemented auto order system for Android POS device, ensuring efficient order management and delivery",
+        "Integrated SignalR for real-time communication, enhancing user experience and order processing",
+        "Utilized Firebase push notification for timely updates",
+        "Integrated third-party payment gateway for secure and convenient payments",
+        "Designed custom components for intuitive UI"
+      ]
+    },
+    {
+      "company": "Atomix System Ltd.",
+      "title": "Programmer",
+      "startDate": "2014-03",
+      "endDate": "2015-02",
+      "highlights": [
+        "Developed and maintained native Android apps for phones and tablets",
+        "Integrated third-party libraries, APIs, and Google Maps",
+        "Employed background tasks and services for optimization",
+        "Collaborated with teams, conducted code reviews, and provided feedback"
+      ]
+    },
+    {
+      "company": "VU Mobile Ltd (ZED Group)",
+      "title": "Software Engineer",
+      "startDate": "2012-11",
+      "endDate": "2014-03",
+      "highlights": [
+        "Developed streaming app with content download for offline viewing",
+        "Integrated VAS services for personalized recommendations, in-app purchases, and subscriptions",
+        "Collaborated with content providers for high-quality streaming content",
+        "Utilized analytics and user feedback to improve app performance"
+      ]
+    }
+  ],
+  "certifications": [
+    { "name": "Oracle Certified Professional, Java SE 6 Programmer (OCPJP)", "issuer": "Oracle", "credentialId": "OC1661596", "url": "https://www.credly.com/badges/0d99b65e-5825-49c1-8766-79deaebb5384", "learned": "Core Java APIs, object-oriented design principles, generics, concurrency, and robust exception handling." },
+    { "name": "Kotlin for Java Developers", "issuer": "Coursera", "credentialId": "7Y38Y4TGG9RR", "url": "https://www.coursera.org/account/accomplishments/certificate/7Y38Y4TGG9RR", "learned": "Idiomatic Kotlin, Java interoperability, null safety, and asynchronous programming using coroutines." },
+    { "name": "Python 3 Programming", "issuer": "Coursera", "credentialId": "FAPHYQ3S2DYU", "url": "https://coursera.org/share/f22b60ac1d6d082bce667c17fa584c26", "learned": "Python syntax, data structures, data manipulation, and integrating with external REST APIs." },
+    { "name": "Supervised Machine Learning: Regression and Classification", "issuer": "Coursera", "credentialId": "FB9ZYHWWYI0F", "url": "https://coursera.org/share/88173471304c98931c7e24144f93ff02", "learned": "Building predictive models, implementing linear and logistic regression, and optimizing via gradient descent." },
+    { "name": "Math for Data Science", "issuer": "Coursera", "credentialId": "BS9JTGN3DR5G", "url": "https://www.coursera.org/account/accomplishments/certificate/BS9JTGN3DR5G", "learned": "Foundational mathematics for ML algorithms, focusing heavily on linear algebra and calculus." },
+    { "name": "Engineering Maintainable Android Apps", "issuer": "Coursera", "credentialId": "GE74N4AL9UW8", "url": "https://www.coursera.org/account/accomplishments/certificate/GE74N4AL9UW8", "learned": "Clean architecture principles, software testing (unit and instrumented), and lifecycle management." },
+    { "name": "Introduction to CSS3", "issuer": "Coursera", "credentialId": "G5UW3MGBBWQB", "url": "https://coursera.org/share/63ce1da4e1179bd8aa435b394d1df8ac", "learned": "Modern web styling, responsive layout creation, and core UI design principles." },
+    { "name": "Version Control", "issuer": "Coursera", "credentialId": "HN276GWES45G", "url": "https://www.coursera.org/account/accomplishments/verify/HN276GWES45G", "learned": "Advanced Git workflows, repository management, branching strategies, and team collaboration." }
+  ],
+  "projects": [
+    { "name": "Gemini Commercial Security", "description": "It's a complete home automation system based on Zwave, Blutooth Low energy, TCP/IP protocol. Integrated Access Control Systems from 8 to 255 zones/points. The App is supported on phones/smart devices for universality.", "linkLabel": "App Download Link", "url": "https://t.ly/gFWy8" },
+    { "name": "Napco iLockSDK", "description": "The Napco ILockSDK provides a comprehensive framework for connecting, controlling, and managing Napco smart locks using Bluetooth in your Android app. It handles credential decoding, lock operations, and status monitoring so you can focus on your app’s UI and business logic.", "linkLabel": "SDK Download & Documentation Link", "url": "https://napcodev.github.io/ilocksdkandroiddocs/" },
+    { "name": "Citywide iLock", "description": "iLock application is used to control AlarmLock Bluetooth enabled Locks. This iLock app can be use in place of a proximity credential.", "linkLabel": "App Download Link", "url": "https://play.google.com/store/apps/details?id=com.napcosecurity.ilockcitylink" },
+    { "name": "iSecure Alarm Security", "description": "iSecure Smart Consumer App provides Security and Connected Home Control + Notification Alerts for multiple consumers within a protected premises/household.", "linkLabel": "App Download Link", "url": "https://play.google.com/store/apps/details?id=com.napcosecurity.iBridge2.isecure" },
+    { "name": "ChefOnline - Online Takeaways", "description": "The perfect online food ordering app, designed to bring your favourite takeaway straight to you in just three simple step", "linkLabel": "App Download Link", "url": "https://play.google.com/store/apps/details?id=com.chefonline.chefonline" },
+    { "name": "BLE Peripheral Scanner", "description": "BLE Device Scanner is an Android app designed to find nearby Bluetooth Low Energy (BLE) enabled peripheral devices and perform read, write, notify and indiacation operation on connected peripheral devices. It features continuous scanning and demonstrates a multi-module architecture using MVVM, Kotlin, Hilt, Jetpack Compose and Unit Test.", "linkLabel": "Repository Link", "url": "https://github.com/mnhmasum/ble-device-scanner" },
+    { "name": "ChefOnline Partner", "description": "The ChefOnline Partner app is the answer to everything you need for your restaurant management. We have a variety of services for restaurant owners throughout the UK to promote the craft of great eating. Join our platform and be among the top restaurant businesses with diverse cuisine types from all across the country.", "linkLabel": "App Download Link", "url": "https://play.google.com/store/apps/details?id=com.lechef.SRSITAPP" }
+  ],
+  "education": [
+    { "degree": "B.Sc. Computer Science and Engineering", "institution": "Bangladesh University", "years": "2011 - 2014", "details": "CGPA 3.64 (Scale out of 4.0)" },
+    { "degree": "Diploma in Computer Technology", "institution": "Dhaka Polytechnic Institute", "years": "2006 - 2010", "details": "CGPA 3.55 (Scale out of 4.0)" }
+  ]
+}

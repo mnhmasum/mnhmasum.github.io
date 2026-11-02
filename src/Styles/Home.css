@@ -1,0 +1,176 @@
+section {
+  margin-top: 20px;
+}
+
+section ul {
+  list-style-position: outside;
+  padding-left: 20px;
+}
+
+section ul li {
+  margin-bottom: 8px;
+}
+
+section ul li::marker {
+  font-size: .8em;
+}
+
+.headline-medium {
+  color: rgb(0, 118, 165);
+  font-weight: 600;
+  font-size: 1.2em;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.headline-small {
+  color: rgb(42, 42, 43);
+  font-weight: 600;
+  font-size: 1.1em;
+  padding-top: 0;
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid rgba(0, 118, 165, 0.15);
+}
+
+.horizontal-point {
+  display: flex;
+}
+
+.horizontal-point p {
+  margin-right: 20px;
+  /* Adjust as needed */
+}
+
+.horizontal-point div {
+  margin-top: 4px;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+.horizontal-point div a {
+  text-decoration: none;
+  color: rgb(63, 62, 62);
+}
+
+.horizontal-point p:last-child {
+  margin-right: 0;
+
+}
+
+.company-title {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+
+.secondary-title {
+  font-size: calc(10px + 0.5vmin);
+  color: rgb(80, 80, 80);
+  margin-top: 4px;
+  line-height: 1.6;
+}
+
+.secondary-title a {
+  color: rgb(0, 118, 165);
+  text-decoration: none;
+  font-weight: 500;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.2s ease;
+}
+
+.secondary-title a:hover {
+  border-bottom: 1px solid rgb(0, 118, 165);
+}
+
+.designation {
+  color: rgb(44, 43, 43);
+  margin-top: 4px;
+}
+
+.duration {
+  font-size: calc(9px + 0.5vmin);
+  color: rgb(112, 110, 110);
+  margin-top: 4px;
+}
+
+.mid-bold {
+  font-weight: 600;
+  font-size: 1.05em;
+  color: rgb(56, 57, 58);
+  margin-bottom: 6px;
+}
+
+.top-gap {
+  margin-top: 16px;
+  background-color: rgba(0, 118, 165, 0.02);
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.top-gap:hover {
+  background-color: rgba(0, 118, 165, 0.05);
+  box-shadow: 0 2px 8px rgba(0, 118, 165, 0.1);
+}
+
+.top-gap-small {
+  margin-top: 8px;
+}
+
+.bottom-gap {
+  margin-bottom: 20px;
+  background-color: rgba(0, 118, 165, 0.02);
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.bottom-gap:hover {
+  background-color: rgba(0, 118, 165, 0.05);
+  box-shadow: 0 2px 8px rgba(0, 118, 165, 0.1);
+}
+
+li span {
+  font-weight: 500;
+}
+
+.right-space {
+  margin-right: 4px;
+}
+
+.download-link {
+  display: inline-block;
+  color: rgb(0, 118, 165);
+  font-weight: 500;
+  text-decoration: none;
+  padding: 6px 12px;
+  border: 1.5px solid rgb(0, 118, 165);
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.download-link:hover {
+  background-color: rgb(0, 118, 165);
+  color: white;
+}
+
+.mobile-icon {
+  color: rgb(0, 118, 165);
+  padding-right: 4px;
+}
+
+.social-icon {
+  color: rgb(0, 118, 165);
+  padding-right: 4px;
+  font-size: 24px;
+}
+
+@media print {
+  .margintop-for-print {
+    margin-top: 24px;
+  }
+  .margintop-for-print-mid {
+    margin-top: 54px;
+  }
+}
