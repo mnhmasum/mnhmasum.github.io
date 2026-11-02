@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.31dc529d.css",
+    "main.js": "/static/js/main.863ade27.js",
+    "static/media/paceman.svg": "/static/media/paceman.8037484e62aff77233572f389c6652d9.svg",
+    "index.html": "/index.html",
+    "main.31dc529d.css.map": "/static/css/main.31dc529d.css.map",
+    "main.863ade27.js.map": "/static/js/main.863ade27.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31dc529d.css",
+    "static/js/main.863ade27.js"
+  ]
+}
