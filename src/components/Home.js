@@ -61,7 +61,7 @@ function Home() {
 
          <section>
             <div className="headline-medium">Skills:</div>
-            <ul style={{ margin: 0 }}>
+            <ul className="skills-list">
                {skills.map((skill) => (
                   <li key={skill.category}>{skill.category}: {skill.items.join(', ')}.</li>
                ))}

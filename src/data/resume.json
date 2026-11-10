@@ -23,12 +23,12 @@
   "skills": [
     { "category": "Languages", "items": ["Java", "Kotlin", "Python", "PHP", "JavaScript"] },
     { "category": "Architecture", "items": ["MVP", "MVVM", "Multi-Modular", "MVC(web)"] },
-    { "category": "Frameworks & Libraries", "items": ["Dagger2", "Hilt", "RxJava", "ReactJs", "React Native", "Flutter", "Tensorflow"] },
-    { "category": "Web Development", "items": ["CodeIgniter (PHP Framework)", "Bootstrap (CSS Framework)", "JS Frameworks (jQuery, ReactJs)"] },
-    { "category": "Databases", "items": ["MySQL", "SQLite", "Oracle"] },
+    { "category": "Frameworks", "items": ["Dagger2", "Hilt", "RxJava", "ReactJs", "React Native", "Flutter", "Tensorflow"] },
+    { "category": "Web Development", "items": ["CodeIgniter", "ReactJs", "Bootstrap (CSS Framework)"] },
     { "category": "Version Control", "items": ["Git", "SVN"] },
-    { "category": "Others", "items": ["WebSocket", "SignalR", "Google Firebase", "Google GeoFence", "Kotlin DSL"] },
-    { "category": "Protocol", "items": ["GATT (for Bluetooth Low Energy)", "TCP/IP", "ZWave"] }
+    { "category": "Databases", "items": ["MySQL", "SQLite", "Oracle"] },
+    { "category": "Others", "items": ["WebSocket", "Google Firebase", "Google GeoFence", "Kotlin DSL"] },
+    { "category": "Protocol", "items": ["Bluetooth Low Energy (BLE)", "TCP/IP", "ZWave"] }
   ],
   "experience": [
     {

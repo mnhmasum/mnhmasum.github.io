@@ -7,5 +7,5 @@ To run the project:
 npm install
 npm start
 
-To deploy:
+To deploy/build and Publish:
 npm run deploy
