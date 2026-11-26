@@ -21,7 +21,7 @@
     { "name": "LeetCode", "url": "https://leetcode.com/u/mnhmasum/", "image": "https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" }
   ],
   "skills": [
-    { "category": "Languages", "items": ["Java", "Kotlin", "Python", "PHP", "JavaScript"] },
+    { "category": "Programming Languages", "items": ["Java", "Kotlin", "Python", "PHP", "JavaScript"] },
     { "category": "Architecture", "items": ["MVP", "MVVM", "Multi-Modular", "MVC(web)"] },
     { "category": "Frameworks", "items": ["Dagger2", "Hilt", "RxJava", "ReactJs", "React Native", "Flutter", "Tensorflow"] },
     { "category": "Web Development", "items": ["CodeIgniter", "ReactJs", "Bootstrap (CSS Framework)"] },

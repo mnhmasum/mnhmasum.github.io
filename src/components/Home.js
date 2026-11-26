@@ -26,6 +26,8 @@ function getDuration(startDate, endDate) {
 
 function Home() {
    const { profile, socialLinks, skills, experience, certifications, projects, education, settings } = resume;
+   const skillOrder = ['Languages', 'Frameworks', 'Architecture', 'Web Development', 'Databases', 'Protocol', 'Version Control', 'Others'];
+   const orderedSkills = [...skills].sort((a, b) => skillOrder.indexOf(a.category) - skillOrder.indexOf(b.category));
 
    return (
       <div className="App">
@@ -62,8 +64,8 @@ function Home() {
          <section>
             <div className="headline-medium">Skills:</div>
             <ul className="skills-list">
-               {skills.map((skill) => (
-                  <li key={skill.category}>{skill.category}: {skill.items.join(', ')}.</li>
+               {orderedSkills.map((skill) => (
+                  <li key={skill.category}><strong>{skill.category}:</strong> {skill.items.join(', ')}</li>
                ))}
             </ul>
          </section>
